@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: bharamicrosystems/nginx:v1
+        image: naviat/test-kaniko:v3
         ports:
         - containerPort: 80
